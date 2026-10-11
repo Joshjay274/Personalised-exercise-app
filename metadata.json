@@ -1,0 +1,6 @@
+{
+  "name": "Smart Hybrid Coach",
+  "description": "Personalized hybrid fitness coach with wrist and joint protection, progressive overload, barbell plate calculator, and AI workout adaptation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

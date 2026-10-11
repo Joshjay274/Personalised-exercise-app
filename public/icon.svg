@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1117" />
+      <stop offset="50%" stop-color="#151926" />
+      <stop offset="100%" stop-color="#090a0f" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Outer Joint Shield Ring -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="url(#amberGrad)" stroke-width="12" opacity="0.85" filter="url(#glow)" />
+  <circle cx="256" cy="256" r="165" fill="none" stroke="url(#emeraldGrad)" stroke-width="4" stroke-dasharray="8 8" opacity="0.6" />
+
+  <!-- Central Dumbbell & Armor Emblem -->
+  <!-- Center Bar -->
+  <rect x="196" y="244" width="120" height="24" rx="6" fill="#e2e8f0" />
+  
+  <!-- Knurling Grip lines on bar -->
+  <line x1="230" y1="244" x2="230" y2="268" stroke="#94a3b8" stroke-width="3" />
+  <line x1="245" y1="244" x2="245" y2="268" stroke="#94a3b8" stroke-width="3" />
+  <line x1="260" y1="244" x2="260" y2="268" stroke="#94a3b8" stroke-width="3" />
+  <line x1="275" y1="244" x2="275" y2="268" stroke="#94a3b8" stroke-width="3" />
+
+  <!-- Left Inner Collar & Plate -->
+  <rect x="182" y="232" width="14" height="48" rx="4" fill="#cbd5e1" />
+  <!-- Left Inner Plate (2.5kg) -->
+  <rect x="156" y="200" width="22" height="112" rx="7" fill="url(#emeraldGrad)" filter="url(#glow)" />
+  <!-- Left Outer Plate (1.5kg) -->
+  <rect x="130" y="214" width="22" height="84" rx="7" fill="url(#amberGrad)" />
+  <!-- Left End Cap -->
+  <rect x="120" y="246" width="8" height="20" rx="3" fill="#94a3b8" />
+
+  <!-- Right Inner Collar & Plate -->
+  <rect x="316" y="232" width="14" height="48" rx="4" fill="#cbd5e1" />
+  <!-- Right Inner Plate (2.5kg) -->
+  <rect x="334" y="200" width="22" height="112" rx="7" fill="url(#emeraldGrad)" filter="url(#glow)" />
+  <!-- Right Outer Plate (1.5kg) -->
+  <rect x="360" y="214" width="22" height="84" rx="7" fill="url(#amberGrad)" />
+  <!-- Right End Cap -->
+  <rect x="384" y="246" width="8" height="20" rx="3" fill="#94a3b8" />
+
+  <!-- Top Flame of Mastery / Streak -->
+  <path d="M256 128 C266 150 286 164 278 186 C272 178 266 172 260 170 C264 190 248 206 236 196 C232 186 236 176 242 168 C234 176 226 156 256 128 Z" fill="url(#amberGrad)" filter="url(#glow)" />
+
+  <!-- Joint Armor Guard Shield Emblem at bottom -->
+  <path d="M236 312 L256 302 L276 312 L276 338 C276 354 256 366 256 366 C256 366 236 354 236 338 Z" fill="#10b981" opacity="0.9" />
+  <!-- Checkmark / Core icon inside shield -->
+  <path d="M246 332 L253 340 L266 324" fill="none" stroke="#0f1117" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

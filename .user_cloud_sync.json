@@ -1,0 +1,14 @@
+{
+  "athlete@test.com": {
+    "userProfile": {
+      "name": "Athlete",
+      "currentStreakDays": 3,
+      "cloudSyncEmail": "athlete@test.com",
+      "cloudSyncConnected": true,
+      "lastSyncTimestamp": "2026-10-09T23:29:07.381Z"
+    },
+    "strengthHistory": [],
+    "templates": [],
+    "lastUpdated": "2026-10-09T23:29:07.381Z"
+  }
+}
